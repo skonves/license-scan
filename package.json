@@ -1,0 +1,29 @@
+{
+  "name": "typescript-application",
+  "version": "0.0.1",
+  "description": "Base project for creating a console application in Typescript",
+  "main": "./lib/index.js",
+  "scripts": {
+    "prebuild": "npm run lint && rm -rf lib/*",
+    "build": "tsc",
+    "lint": "tslint -c tslint.json -e 'node_modules/**/*' '**/*.ts'",
+    "start": "node ./lib/index.js",
+    "test": "NODE_ENV=test nyc mocha --require source-map-support/register --require ts-node/register --recursive './src/**/*.tests.ts'"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "@types/chai": "^4.1.6",
+    "@types/mocha": "^5.2.5",
+    "@types/node": "^10.11.6",
+    "chai": "^4.2.0",
+    "mocha": "^5.2.0",
+    "nyc": "^13.0.1",
+    "prettier": "^1.14.3",
+    "source-map-support": "^0.5.9",
+    "ts-node": "^7.0.1",
+    "tslint": "^5.11.0",
+    "typescript": "^3.1.2"
+  }
+}
