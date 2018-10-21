@@ -1,6 +1,6 @@
 {
   "name": "license-scan",
-  "version": "0.1.1",
+  "version": "0.1.2",
   "description": "Base project for creating a console application in Typescript",
   "main": "./lib/index.js",
   "scripts": {
