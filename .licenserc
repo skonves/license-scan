@@ -1,0 +1,19 @@
+{
+  "whitelist": [
+    "Apache-2.0",
+    "BSD",
+    "BSD-2-Clause",
+    "(BSD-2-Clause OR MIT OR Apache-2.0)",
+    "BSD-3-Clause",
+    "BSD-3-Clause OR MIT",
+    "CC-BY-3.0",
+    "CC0-1.0",
+    "ISC",
+    "MIT",
+    "MIT/X11"
+  ],
+  "defaults": {
+    "indexof@0.0.1": "MIT"
+  },
+  "output": "package-licenses.csv"
+}
