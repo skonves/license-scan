@@ -14,7 +14,7 @@ Note that this tool reads from `package-lock.json` as well as from `node_modules
 
 ## Configuration
 
-You can configure the scan by adding a `.licenserc` file that contains `json` formatted data.  The scan will look for this config file in the current directory, any of its parent directories, or any other place that "rc" files are normally stored.
+You can configure the scan by adding a `.licenserc` file that contains `json` formatted data. The scan will look for this config file in the current directory, any of its parent directories, or any other place that "rc" files are normally stored.
 
 ### Whitelist
 
@@ -78,3 +78,7 @@ Example:
 
 1.  Build the code: `npm run build`
 1.  Run it! `npm start`
+
+## Disclaimer
+
+Software licensing can be complicated. The examples used in this project do not endorse or discourage the use of any license. Use of this tool does not constitute legal advice or legal services.
